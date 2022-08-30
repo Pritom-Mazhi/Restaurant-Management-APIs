@@ -3,7 +3,7 @@
 # How to access and run this project?
 - Install latest version of scala and sbt in your environment.
 - Clone this repository to your local directory.
-- open the **restaurant-apis** directory in you code editor(ie. VSCode).
+- open the **Restaurant-Management-APIs** directory in you code editor(ie. VSCode).
 - enter inside the **restaurant-apis** directory and run ```sbt run```
 
 # Comments
