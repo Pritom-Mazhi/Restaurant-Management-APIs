@@ -1,0 +1,28 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
+
+GET     /api/orders                  controllers.RestaurantController.getAllOrders
+GET     /api/:table_no/orders        controllers.RestaurantController.getOrderByTableId(table_no: Int)
+GET     /api/:table_no/items         controllers.RestaurantController.getItemsByTableId(table_no: Int) 
+POST    /api/order                   controllers.RestaurantController.addOrder
+PUT     /api/order/:orderId          controllers.RestaurantController.updateOrder(id: orderId)
+DELETE  /api/:table_no/:item_no      controllers.RestaurantController.deleteOrderByItem(table_no: Int, item_no: Int)
+
+GET     /api/items                   controllers.RestaurantController.getAllItems
+GET     /api/items/:itemId           controllers.RestaurantController.getItemByItemId(itemId: Int)
+PUT     /api/items/:itemId           controllers.RestaurantController.updateItem(itemId: Int) 
+POST    /api/addItem                 controllers.RestaurantController.addItem
+DELETE  /api/items/:itemId           controllers.RestaurantController.deleteItem(itemId: Int)
+
+
+

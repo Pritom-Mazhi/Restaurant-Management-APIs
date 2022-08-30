@@ -1,0 +1,39 @@
+1656767489000:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/1n/mfw72_sn1wn4bf6g3924xry80000gq/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/user02/Library/Application Support/JetBrains/IntelliJIdea2022.1/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1656768093805:run
+1657209062653:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/1n/mfw72_sn1wn4bf6g3924xry80000gq/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/user02/Library/Application Support/JetBrains/IntelliJIdea2022.1/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1657236496526:runMain models.CodeGen
+1657236735837:exit
+1657236753892:run
+1657236880131:exit
+1657236937538:runMain model.CodGen
+1657236978731:exit
+1657236995805:runMain model.CodGen
+1657237116347:clear
+1657237118833:exit
+1657237201896:runMain models.CodeGen
+1657237276041:exit
+1657237302770:runMain models.CodeGen
+1657237927383:clear
+1657251643787:exit
+1657251660936:run
+1657332296535:runMain models.CodeGen
+1657332942625:clear
+1657332947886:exit
+1657332979490:runMain models.CodeGen
+1657426498650:exit
+1657428758752:curl -v -d '{"tableNo": 1, "item": "1,2,3", "cookingTime": 5}' -H 'Content-Type: application/json' -X POST localhost:9000/api/order
+1657428902330:curl -v -d '{"tableNo": 1, "item": "1,2,3", "cookingTime": 5}' -H 'Content-Type: application/json' -X POST localhost:9000/api/orderexit
+1657428904575:exit
+1657428940992:run
+1657429001138:curl -v -d '{"tableNo": 1, "item": "1,2,3", "cookingTime": 5}' -H 'Content-Type: application/json' -X POST localhost:9000/api/order
+1657430188803:curl -v -d '{"tableNo": 1, "item": "1,2,3", "cookingTime": 5}' -H 'Content-Type: application/json' -X POST localhost:9000/api/orderexit
+1657430191172:exit
+1657435081498:runMain models.CodeGen
+1657435165938:exit
+1657596326393:runMain models.CodeGen
+1657596403504:exit
+1657673191620:run
+1657674172647:exit
+1657955473729:run
+1657956521193:clear
+1658157814182:exit

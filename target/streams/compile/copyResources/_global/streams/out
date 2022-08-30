@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/logback.xml,/Users/user02/Desktop/shigoto/splay/restaurant-apis/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/messages,/Users/user02/Desktop/shigoto/splay/restaurant-apis/target/scala-2.13/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/application.conf,/Users/user02/Desktop/shigoto/splay/restaurant-apis/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes,/Users/user02/Desktop/shigoto/splay/restaurant-apis/target/scala-2.13/classes/routes)[0m

@@ -1,0 +1,155 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:75:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.concurrent.Future[play.api.mvc.Result][0m
+[0m[[0m[31merror[0m] [0m[0m        for( a <- 1 to requestedItemListLength){[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:245:42: not found: value orderId[0m
+[0m[[0m[31merror[0m] [0m[0m                val theOrder = OrdersRow(orderId, data.tableNo, data.item, data.cookingTime)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:296:40: not found: value itemId[0m
+[0m[[0m[31merror[0m] [0m[0m                val theItem = ItemsRow(itemId, data.name)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:78:28: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method bindFromRequest,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m            OrderForm.form.bindFromRequest.fold([0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:238:24: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method bindFromRequest,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        OrderForm.form.bindFromRequest.fold([0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:272:23: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method bindFromRequest,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ItemForm.form.bindFromRequest.fold([0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/controllers/RestaurantController.scala:290:23: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method bindFromRequest,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ItemForm.form.bindFromRequest.fold([0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:31:38: not found: value profile[0m
+[0m[[0m[31merror[0m] [0m[0mclass Orders(_tableTag: Tag) extends profile.api.Table[OrdersRow](_tableTag, "orders") {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:31:67: no arguments allowed for nullary constructor Object: (): Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass Orders(_tableTag: Tag) extends profile.api.Table[OrdersRow](_tableTag, "orders") {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:32:65: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : ((Int, Int, Int, Int)) => models.OrdersRow[0m
+[0m[[0m[31merror[0m] [0m[0m required: ((Int, Int, Option[Int], Int)) => ?[0m
+[0m[[0m[31merror[0m] [0m[0m    def * = (orderId, tableNo, item, cookingTime) <> (OrdersRow.tupled, OrdersRow.unapply)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:32:83: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[(Int, Int, Int, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m required: Option[(Int, Int, Option[Int], Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    def * = (orderId, tableNo, item, cookingTime) <> (OrdersRow.tupled, OrdersRow.unapply)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:34:154: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    def ? = ((Rep.Some(orderId), Rep.Some(tableNo), item, Rep.Some(cookingTime))).shaped.<>({r=>import r._; _1.map(_=> OrdersRow.tupled((_1.get, _2.get, _3, _4.get)))}, (_:Any) =>  throw new Exception("Inserting into ? projection not supported."))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:37:29: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    val orderId: Rep[Int] = column[Int]("order_id", O.AutoInc, O.PrimaryKey)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:37:53: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    val orderId: Rep[Int] = column[Int]("order_id", O.AutoInc, O.PrimaryKey)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:37:64: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    val orderId: Rep[Int] = column[Int]("order_id", O.AutoInc, O.PrimaryKey)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:39:29: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    val tableNo: Rep[Int] = column[Int]("table_no")[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:41:34: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    val item: Rep[Option[Int]] = column[Option[Int]]("item", O.Default(None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:41:62: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    val item: Rep[Option[Int]] = column[Option[Int]]("item", O.Default(None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:43:33: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    val cookingTime: Rep[Int] = column[Int]("cooking_time")[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:46:24: not found: value foreignKey[0m
+[0m[[0m[31merror[0m] [0m[0m    lazy val itemsFk = foreignKey("orders_item_fkey", item, Items)(r => Rep.Some(r.itemId), onUpdate=ForeignKeyAction.NoAction, onDelete=ForeignKeyAction.Cascade)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:46:61: not found: value Items[0m
+[0m[[0m[31merror[0m] [0m[0m    lazy val itemsFk = foreignKey("orders_item_fkey", item, Items)(r => Rep.Some(r.itemId), onUpdate=ForeignKeyAction.NoAction, onDelete=ForeignKeyAction.Cascade)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:46:93: not found: value onUpdate[0m
+[0m[[0m[31merror[0m] [0m[0m    lazy val itemsFk = foreignKey("orders_item_fkey", item, Items)(r => Rep.Some(r.itemId), onUpdate=ForeignKeyAction.NoAction, onDelete=ForeignKeyAction.Cascade)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:46:129: not found: value onDelete[0m
+[0m[[0m[31merror[0m] [0m[0m    lazy val itemsFk = foreignKey("orders_item_fkey", item, Items)(r => Rep.Some(r.itemId), onUpdate=ForeignKeyAction.NoAction, onDelete=ForeignKeyAction.Cascade)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:50:37: not found: value profile[0m
+[0m[[0m[31merror[0m] [0m[0mclass Items(_tableTag: Tag) extends profile.api.Table[ItemsRow](_tableTag, "items") {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:50:65: no arguments allowed for nullary constructor Object: (): Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass Items(_tableTag: Tag) extends profile.api.Table[ItemsRow](_tableTag, "items") {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:56:28: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    val itemId: Rep[Int] = column[Int]("item_id", O.AutoInc, O.PrimaryKey)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:56:51: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    val itemId: Rep[Int] = column[Int]("item_id", O.AutoInc, O.PrimaryKey)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:56:62: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    val itemId: Rep[Int] = column[Int]("item_id", O.AutoInc, O.PrimaryKey)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:58:29: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    val name: Rep[String] = column[String]("name", O.Length(20,varying=true))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:58:52: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    val name: Rep[String] = column[String]("name", O.Length(20,varying=true))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:58:64: not found: value varying[0m
+[0m[[0m[31merror[0m] [0m[0m    val name: Rep[String] = column[String]("name", O.Length(20,varying=true))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:96:19: type arguments [models.Orders] conform to the bounds of none of the overloaded alternatives of[0m
+[0m[[0m[31merror[0m] [0m[0m value apply: [E <: slick.lifted.AbstractTable[_]]slick.lifted.TableQuery[E] <and> [E <: slick.lifted.AbstractTable[_]](cons: slick.lifted.Tag => E): slick.lifted.TableQuery[E][0m
+[0m[[0m[31merror[0m] [0m[0m  var orderList = TableQuery[Orders][0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/RestaurantModel.scala:159:18: type arguments [models.Items] conform to the bounds of none of the overloaded alternatives of[0m
+[0m[[0m[31merror[0m] [0m[0m value apply: [E <: slick.lifted.AbstractTable[_]]slick.lifted.TableQuery[E] <and> [E <: slick.lifted.AbstractTable[_]](cons: slick.lifted.Tag => E): slick.lifted.TableQuery[E][0m
+[0m[[0m[31merror[0m] [0m[0m  var itemList = TableQuery[Items][0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/models/Tables.scala:5:23: early initializers are deprecated; they will be replaced by trait parameters in 3.0, see the migration guide on avoiding var/val in traits.[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject Tables extends {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/app/services/RestaurantService.scala:41:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.concurrent.Future[Seq[models.OrdersRow]][0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.concurrent.Future[Seq[String]][0m
+[0m[[0m[31merror[0m] [0m[0m    items.getOrdersOfTable(table)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getAllOrders,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /api/orders                  controllers.RestaurantController.getAllOrders[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addOrder,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /api/order                   controllers.RestaurantController.addOrder[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:20:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getAllItems,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /api/items                   controllers.RestaurantController.getAllItems[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:23:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addItem,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /api/addItem                 controllers.RestaurantController.addItem[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:14:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getAllOrders,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /api/orders                  controllers.RestaurantController.getAllOrders[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:20:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getAllItems,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /api/items                   controllers.RestaurantController.getAllItems[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/user02/Desktop/shigoto/splay/restaurant-apis/conf/routes:23:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method addItem,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mPOST    /api/addItem                 controllers.RestaurantController.addItem[0m
+[0m[[0m[33mwarn[0m] [0m[0m12 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m30 errors found[0m
