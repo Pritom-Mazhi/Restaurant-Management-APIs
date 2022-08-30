@@ -31,7 +31,7 @@
     - unit tests for actively used controller methods, and forms are written inside the ```RestaurantControllerSpec.scala``` file.
 
 # Setup the database
-- PostgreSQL is used and configured in this assignment.
+- PostgreSQL is used and configured in this project.
 - Create/Configure a username, password for your PostgreSQL root/main user.
 - Create/Configure a database and owner. You can run the commands in the terminal as logged in PostgreSQL user written in this file - ```restaurant-apis/sql/setup.sql```.
 - Create/Configure tables. You can run the commands in the terminal as logged in PostgreSQL user written in this file - ```restaurant-apis/sql/createTables.sql```.
